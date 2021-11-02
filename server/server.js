@@ -5,7 +5,7 @@ const mcRouter = express.Router();
 const Score = require('./dbSchema');
 const mongoose = require('mongoose');
 
-const mongoURI = 'mongodb+srv://adminjen:T0lrNKqXpt42pLTK@cluster0.srewb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+const mongoURI = 'INSERT MONGODB URI :)';
 mongoose.connect(mongoURI);
 
 app.use(express.json());
